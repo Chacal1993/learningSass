@@ -1,5 +1,6 @@
 @import "exempleStyles";
 $headerColor:#fc00ef;
+$estiloHeader: 'otra cosa';
 $meGustaColor: green;
 $titulo: red;
 
@@ -14,6 +15,14 @@ body {
 
     .megusta {
         background-color: $meGustaColor;
+    }
+
+    @for $i from 1 through 6 {
+        h#{$i} {font-size: #{$i}em;} 
+    }
+
+    @each $boton, $color in (megusta, red), (no-megusta, green) {
+        .#{$boton} { background-color: $color;}
     }
    
 }

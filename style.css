@@ -20,13 +20,43 @@ body {
 }
 body header {
   color: white;
-  background-color: #fc00ef;
   height: 35px;
+  background-color: green;
 }
 body main h3 {
   color: red;
 }
+body main .megusta {
+  background-color: red;
+}
+body main .no-megusta {
+  background-color: green;
+}
 body .megusta {
+  background-color: green;
+}
+body h1 {
+  font-size: 1em;
+}
+body h2 {
+  font-size: 2em;
+}
+body h3 {
+  font-size: 3em;
+}
+body h4 {
+  font-size: 4em;
+}
+body h5 {
+  font-size: 5em;
+}
+body h6 {
+  font-size: 6em;
+}
+body .megusta {
+  background-color: red;
+}
+body .no-megusta {
   background-color: green;
 }
 

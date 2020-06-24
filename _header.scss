@@ -1,5 +1,10 @@
 header {
     color: white;
-    background-color: $headerColor;
+    // background-color: $headerColor;
     height: 35px;
+    @if $estiloHeader == 'nocturno' {
+        background-color: black;
+    } @else {
+        background-color: green;
+    }
 }
