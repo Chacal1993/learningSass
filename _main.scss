@@ -7,8 +7,21 @@ main {
     @each $boton, $color in (megusta, red), (no-megusta, green) {
         .#{$boton} { background-color: $color;}
     }
+
+    @each $color, $radius, $padding, $i in (
+        green, 5px, 10px,1),(blue, 10px, 15px,2),(red, 15px, 20px,3),
+        (yellow, 20px, 20px,4){
+        .parrafo#{$i}{
+            @include parrafo($color, $radius, $padding)
+        }
+
+    }
+    
+
+        
+    
    
-    .parrafo1{
+    /* .parrafo1{
         @include parrafo(green, 5px, 10px)
     }
     .parrafo2{
@@ -19,6 +32,6 @@ main {
     }
     .parrafo4{
         @include parrafo(yellow, 20px, 20px)
-    }
+    } */
 
 }
