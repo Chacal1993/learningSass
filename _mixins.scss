@@ -1,0 +1,5 @@
+@mixin parrafo($color, $radius, $padding) {
+    border-radius: $radius;
+    padding: $padding;
+    border: 5px solid $color;
+}

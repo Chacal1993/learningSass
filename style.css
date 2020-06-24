@@ -32,6 +32,26 @@ body main .megusta {
 body main .no-megusta {
   background-color: green;
 }
+body main .parrafo1 {
+  border-radius: 5px;
+  padding: 10px;
+  border: 5px solid green;
+}
+body main .parrafo2 {
+  border-radius: 10px;
+  padding: 15px;
+  border: 5px solid blue;
+}
+body main .parrafo3 {
+  border-radius: 15px;
+  padding: 20px;
+  border: 5px solid red;
+}
+body main .parrafo4 {
+  border-radius: 20px;
+  padding: 20px;
+  border: 5px solid yellow;
+}
 body .megusta {
   background-color: green;
 }
