@@ -6,8 +6,14 @@ body {
 }
 body header {
   color: white;
-  background-color: rgba(255, 0, 0, 0.76);
+  background-color: #fc00ef;
   height: 35px;
+}
+body .megusta {
+  background-color: green;
+}
+body main h3 {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
