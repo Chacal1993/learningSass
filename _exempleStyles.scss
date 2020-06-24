@@ -1,0 +1,13 @@
+h2.Sub-title {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.imagen {
+    img {
+        width: 400px + 45pt;
+        @media screen and (orientation: landscape) {
+            width: 760px;
+        }
+    }
+}

@@ -1,3 +1,17 @@
+h2.Sub-title {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.imagen img {
+  width: 460px;
+}
+@media screen and (orientation: landscape) {
+  .imagen img {
+    width: 760px;
+  }
+}
+
 body {
   box-sizing: border-box;
   width: 100%;
@@ -9,11 +23,11 @@ body header {
   background-color: #fc00ef;
   height: 35px;
 }
-body .megusta {
-  background-color: green;
-}
 body main h3 {
   color: red;
+}
+body .megusta {
+  background-color: green;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,22 +1,19 @@
+@import "exempleStyles";
 $headerColor:#fc00ef;
 $meGustaColor: green;
 $titulo: red;
+
 body {
     box-sizing: border-box;
     width: 100%;
     margin: 0;
     padding: 0;
-    header {
-        color: white;
-        background-color: $headerColor;
-        height: 35px;
-    }
+    
+    @import "header";
+    @import "main";
+
     .megusta {
         background-color: $meGustaColor;
     }
-    main {
-        h3 {
-            color: $titulo;
-        }
-    }
+   
 }
